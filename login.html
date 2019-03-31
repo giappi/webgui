@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Đăng nhập</title>
+<meta charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/gui.css" />
+</head>
+<body>
+<h1>Hello !</h1>
+<div id="dialogue_area" >
+	<div class="dialogue_background" >
+  <div class="dialogue">
+      <div class="dialogue_container" >
+          <div class="dialogue_content">
+            <div class="dialogue_title clear_fix">
+                <table class="fullWidth no_border">
+                  <tr>
+                    <td><img src="img/firefox_16x16.png" alt="[icon]" class="align_block_vertical"></td>
+                    <td width="100%" class="fullWidth dialogue_text">Đăng nhập</td>
+                    <td><input type="button" value="" class="align_block_vertical dialogue_icon dialogue_icon_close button" /></td>
+                  </tr>
+                </table>
+            </div>
+              <div class="dialogue_body" >
+              <div class="login block_center">
+				  <form method="post" action="">
+              Tài khoản:
+                <table class="textbox fullWidth" >
+                  <tr>
+                    <td style="padding: 1px;" ><label for="textfield2"><img src="img/lock_16x16.png" alt="tai khoan" class="align_block_vertical"></label>
+                    </td>
+                    <td>
+                    <input name="textfield" type="text" class="no_border fullWidth fontSegoeUI textbox_login" id="textfield2" /></td>
+                  </tr>
+                </table>
+                  Mật mã:
+                  <table class="textbox fullWidth">
+                  <tr>
+                    <td style="padding: 1px;" ><label for="textfield4"><img src="img/key_16x16.png" alt="mat khau" class="align_block_vertical"></label></td>
+                    <td>
+                    <input name="textfield2" type="password" class="no_border fullWidth fontSegoeUI textbox_login" id="textfield4" />
+                    </td>
+                  </tr>
+                </table>
+              </form>
+              </div>
+            </div>
+            
+              <div class="dialogue_seperate"></div>
+              <div class="dialogue_button clear_fix" >
+              <div class="floatRight">
+              <input name="dialogue_button" type="button" title="cmd_ok" class="button_selected button_dlg button"  value="OK" />
+              <input name="dialogue_button" type="button" title="cmd_cancel" class="button_dlg button" value="Hủy">
+              </div>
+              </div>
+        </div>
+          </div>
+      </div>
+    </div>
+</div> 
+<script></script>
+<script type="text/javascript" src="js/g.js" ></script>
+</body>
+</html>
